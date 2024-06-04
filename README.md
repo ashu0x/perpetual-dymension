@@ -1,66 +1,22 @@
-## Foundry
+Contracts Deployed on RollAppX!
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Vault: "0x54f7073d01cc320addea3044b5b62fab1a9a0e76",
+Router: "0x668dE9334165268dA11cA15fcE8987f8703182D7",
+VaultReader: "0xB08A40F3FAEb4167B35BdcB16CbD59d7a502016D",
+Reader: "0xc996207e26e927fC73D1d5CaD01dFB0E0E89eaCF",
+GlpManager: "0xdeD7C0bd755FF4501b6cCae97Ef7aA0435929C3c",
+RewardRouter: "0x8F818b698CAF042508C077Ee0fF690dC8820aa76",
+RewardReader: "0x67f22F02892D2712896c8eac147CDB492C90eEfb",
+GLP: "0x043cb6220Ef18Cc7Df34f3c6f9690a0A00b6cBD3",
+GMX: "0xf39324e0137E8df2a0C748846dEC5557b34032fa",
+USDG: "0x7764bdDb69Fd44567Aa482F8C40dBE8b358E2CA6",
+PositionRouter: "0x4d5173B7CC7E4572E024E94949dE2069FB4325F1",
+PositionManager: "0x91cd62643733cB5cfdF63fFC3fFBA00b599feD45",
+RoleStore: "0x8301Cd21753e7Ace921b8f5877DFCc4Be36Cb9F8",
+DataStore: "0x544588169fef8539d3F3d7e2F80b474c38023429",
+EventEmitter: "0x05705891C3401CA492Eed5a74D7dbf9579b7bFF6",
+DepositVault: "0x75A4712Cd3D0ff8E817A3c3b200dF1d06c1105b7",
+WithdrawalVault: "0x8dEA15D66845297Fa960Fb5b3B06Bc6D6Bb873BF",
+SyntheticsReader: "0x70227c15b6100E6b84769DF95ac0AE99386E9FA7"
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Because of ERC-170 limitations, I had to reduce codesize and optimize contracts before deployment.
